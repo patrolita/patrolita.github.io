@@ -4,6 +4,19 @@
    font-weight: bold;
 }
 
+@font-face {
+   font-family: Stilu;
+   src: url(Stilu-Regular.otf);
+   font-style: regular;
+}
+
+@font-face {
+   font-family: Stilu;
+   src: url(Stilu-Light.otf);
+   font-weight: light;
+}
+
+
 body {
     background-color: #ffffff;
 }
@@ -12,15 +25,14 @@ body {
 	display: block;
 	vertical-align: top;
 	text-align: center;
-
+	margin: auto;
 }
 
 h1 {
-	color: #da816d;
+	color: #C791A2;
 	text-align: center;
    	font-family: Stilu;
    	font-size: 30px;
-	margin-top: 0px;
 }
 
 h2 {
@@ -30,47 +42,57 @@ h2 {
 }
 
 h3 {
-	color: #FF8315;
-	margin: 20px;
+	color: #1187A9;
 	font-family: Stilu;
+	font-style: regular;
+	font-size: 25px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 h4 {
-	color: #4321AF;
+	color: #86A6AF;
+	font-family: Stilu;
+	font-size: 15px;
 	margin: 5px;
 }
 
 h5 {
 	margin: 2px;
+	font-family: Stilu;
+	font-size: 12px;
 }
 
 h6 {
 	margin: 2px;
+	font-family: Stilu;
+	font-size: 10px;
 }
 
 .intro-text {
 	text-align: center;
-	margin: 25px;
-	font-family: "arial";
+	width: 400px;
+	margin: 25px auto;
+	font-family: Stilu;
 	font-size: 12px;
 }
 
 .regular-text {
 	margin: 25px;
 	margin-left: 0px;
-	font-family: "arial";
+	font-family: stilu;
 	font-size: 12px;
 }
 
 .my-links {
 	text-align: center;
-	font-family: "arial";
+	font-family: Stilu;
 	margin: 30px;
 }
 
 img {
 	display: block;
-	width: 40%;
+	width: 30%;
 	height: auto;
 	margin: auto;
 	padding-top: 20px;
@@ -92,7 +114,7 @@ img {
 }
 
 footer { 
-	background-color: #da816d;
+	background-color: #C791A2;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -100,7 +122,10 @@ footer {
 @media only screen and (min-width: 760px) {
 	.my-text {
 		display: inline-block;
-		max-width: 50%; 
+		max-width: 40%; 
+	}
 
+	.head-div {
+		text-align: center;
 	}
 }
