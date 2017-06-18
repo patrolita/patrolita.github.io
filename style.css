@@ -32,20 +32,14 @@ h1 {
 	color: #C791A2;
 	text-align: center;
    	font-family: Stilu;
-   	font-size: 30px;
-}
-
-h2 {
-	color: #006A6A;
-	text-align: center;
-	font-family: "comic sans ms";
+   	font-size: 35px;
 }
 
 h3 {
 	color: #1187A9;
 	font-family: Stilu;
 	font-style: regular;
-	font-size: 25px;
+	font-size: 30px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -53,20 +47,20 @@ h3 {
 h4 {
 	color: #86A6AF;
 	font-family: Stilu;
-	font-size: 15px;
+	font-size: 20px;
 	margin: 5px;
 }
 
 h5 {
 	margin: 2px;
 	font-family: Stilu;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 h6 {
 	margin: 2px;
 	font-family: Stilu;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .intro-text {
@@ -74,14 +68,17 @@ h6 {
 	width: 400px;
 	margin: 25px auto;
 	font-family: Stilu;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 1.4;
 }
 
 .regular-text {
 	margin: 25px;
-	margin-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 	font-family: stilu;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 1.4;
 }
 
 .my-links {
