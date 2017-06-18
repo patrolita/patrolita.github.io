@@ -1,0 +1,106 @@
+@font-face {
+   font-family: Stilu;
+   src: url(Stilu-Bold.otf);
+   font-weight: bold;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.my-text {
+	display: block;
+	vertical-align: top;
+	text-align: center;
+
+}
+
+h1 {
+	color: #da816d;
+	text-align: center;
+   	font-family: Stilu;
+   	font-size: 30px;
+	margin-top: 0px;
+}
+
+h2 {
+	color: #006A6A;
+	text-align: center;
+	font-family: "comic sans ms";
+}
+
+h3 {
+	color: #FF8315;
+	margin: 20px;
+	font-family: Stilu;
+}
+
+h4 {
+	color: #4321AF;
+	margin: 5px;
+}
+
+h5 {
+	margin: 2px;
+}
+
+h6 {
+	margin: 2px;
+}
+
+.intro-text {
+	text-align: center;
+	margin: 25px;
+	font-family: "arial";
+	font-size: 12px;
+}
+
+.regular-text {
+	margin: 25px;
+	margin-left: 0px;
+	font-family: "arial";
+	font-size: 12px;
+}
+
+.my-links {
+	text-align: center;
+	font-family: "arial";
+	margin: 30px;
+}
+
+img {
+	display: block;
+	width: 40%;
+	height: auto;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.signatur {
+	display: block;
+	width: 80%
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	background-color: none;
+
+}
+
+footer { 
+	background-color: #da816d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 760px) {
+	.my-text {
+		display: inline-block;
+		max-width: 50%; 
+
+	}
+}
